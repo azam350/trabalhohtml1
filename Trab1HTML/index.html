@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>meu site</title>
+    <style>
+        table, td, th { border: 1px solid black;}
+        table { width: 20%; border-collapse: collapse; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <p><b>Bem vindo</b> ao <i>meu site</i> incrivel</p>
+    </header>
+    <nav>
+        <h2>sobre mim</h2>
+        <ul type="circle">
+            <li>Menu</li>
+            <li>Principal</li>
+            <li>Produtos</li>
+            <li>Serviços</li>
+            <li>Sobre</li>
+        </ul>
+        <ol type = "i">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ol>
+    </nav>
+    <main>
+        <table>
+            <caption><b>Lucro por mês</b></caption>
+            <thead align="left">
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maçã</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <img src="img/gatogordo.jpg" alt="ele comeu tudo" width="150" height="100">
+        <figcaption>ELE COMEU TODO LUCRO DO MES</figcaption>
+        <a href="https://ifrs.edu.br">
+        <img src="img/gatonormal.png" alt="ele nao pode come nada" width="150" height="100">
+        </a>
+
+        <form>
+            <fieldset>
+                <legend>Dados: </legend>
+
+                <label for="n1">Nome: </label> 
+                <input type="text" id="n1" placeholder="nome"><br>
+                <br>
+                <label for="s1">Senha: </label>
+                <input type="password" id="s1" placeholder="senha"><br>
+                <br>
+                <label for="e1">Email: </label>
+                <input type="email" name="email" placeholder="email"><br>
+                <br>
+                <label for="t1">Telefone: </label>
+                <input type="tel" id="t1" placeholder="telefone"><br>
+                <br>
+                <label for="c1">CPF: </label>
+                <input type="text" id="c1" placeholder="CPF"><br>
+                <input type="radio" id="d1" name="teste" value="robo">
+                <label for="d1">robo</label><br>
+                <input type="radio" id="d2" name="teste" value="humano" placeholder="">
+                <label for id="d2">humano</label><br>
+                <label for="b1">Voce e o um robo?</label>
+                <input type="checkbox" id="b1"><br>
+                <label for="g1">O quão robô voce é?</label>
+                <input type="range"><br>
+                <label for="r1"></label><br>
+                <input type="reset" id="r1">
+                <input type="submit" value = "Enviar">
+            </fieldset>
+        </form>
+
+        <iframe width="560" height="315"
+src="https://www.youtube.com/embed/xxgGKxO-ZSM" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    </main>
+    <footer>
+        <p>Rua ciclano de rio grande 999</p>
+    </footer>
+</body>
+</html>
